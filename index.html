@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border Desk Prototype</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>국경 심사대 프로토타입</h1>
+        <p class="subtitle">"Papers, Please" 감성의 미니 게임 틀</p>
+      </header>
+
+      <section class="topbar">
+        <div>Day <span id="day">1</span></div>
+        <div>Score <span id="score">0</span></div>
+        <div>Mistakes <span id="mistakes">0</span> / 3</div>
+      </section>
+
+      <section class="rules" id="rules"></section>
+
+      <section class="desk">
+        <article class="person-card">
+          <h2>입국자</h2>
+          <p><strong>이름:</strong> <span id="entrantName">-</span></p>
+          <p><strong>국적:</strong> <span id="entrantNation">-</span></p>
+          <p><strong>목적:</strong> <span id="entrantReason">-</span></p>
+        </article>
+
+        <article class="document-card">
+          <h2>서류</h2>
+          <pre id="documentView">대기 중...</pre>
+        </article>
+      </section>
+
+      <section class="actions">
+        <button id="approveBtn" class="approve">승인</button>
+        <button id="denyBtn" class="deny">거부</button>
+        <button id="nextBtn" disabled>다음 입국자</button>
+      </section>
+
+      <section class="log">
+        <h3>판정 로그</h3>
+        <ul id="logList"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
