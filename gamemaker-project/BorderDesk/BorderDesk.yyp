@@ -1,0 +1,85 @@
+{
+  "$GMProject": "v1",
+  "%Name": "BorderDesk",
+  "AudioGroups": [
+    {
+      "%Name": "audiogroup_default",
+      "name": "audiogroup_default"
+    }
+  ],
+  "configs": {
+    "name": "Default",
+    "children": []
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {
+      "name": "Default",
+      "path": "folders/Default.yy"
+    },
+    {
+      "name": "Scripts",
+      "path": "folders/Scripts.yy"
+    },
+    {
+      "name": "Objects",
+      "path": "folders/Objects.yy"
+    },
+    {
+      "name": "Rooms",
+      "path": "folders/Rooms.yy"
+    }
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {},
+  "name": "BorderDesk",
+  "resources": [
+    {
+      "id": {
+        "name": "scr_border_data_init",
+        "path": "scripts/scr_border_data_init/scr_border_data_init.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_border_flow",
+        "path": "scripts/scr_border_flow/scr_border_flow.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_border_controller",
+        "path": "objects/obj_border_controller/obj_border_controller.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_main",
+        "path": "rooms/rm_main/rm_main.yy"
+      }
+    }
+  ],
+  "resourceType": "GMProject",
+  "resourceVersion": "2.0",
+  "RoomOrderNodes": [
+    {
+      "roomId": {
+        "name": "rm_main",
+        "path": "rooms/rm_main/rm_main.yy"
+      }
+    }
+  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {
+      "%Name": "Default",
+      "autocrop": true,
+      "border": 2,
+      "mipsToGenerate": 0,
+      "name": "Default",
+      "resourceType": "GMTextureGroup"
+    }
+  ]
+}
